@@ -1,6 +1,6 @@
-include <stdio.h>
+#include <stdio.h>
 
-/*
+/**
  * main - Prints out the sentence programming is like building a multilingual puzzle 
  * using the function puts
  * Return: 0 (exited succesfully)
