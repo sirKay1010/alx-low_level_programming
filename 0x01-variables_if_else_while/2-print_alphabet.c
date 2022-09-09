@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int alphabet = 65;
+	int alphabet = 97;
 	int i;
 
 	for (i = 0; i < 26; i++)
