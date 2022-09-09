@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if(alphabet == 101 || alphabet == 113)
+		if (alphabet == 101 || alphabet == 113)
 		{
 			alphabet++;
 			continue;
