@@ -5,7 +5,7 @@
 /**
  * main - prints out whether a number randomly generated
  * is positive, negetive or zero
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
