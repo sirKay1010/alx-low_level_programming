@@ -2,12 +2,15 @@
 
 /**
  * main - prints out the alphabets using a function
- * Return: Always 0 (success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
-	return (0);
 }
