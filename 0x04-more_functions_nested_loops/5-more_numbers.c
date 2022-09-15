@@ -12,24 +12,24 @@ void more_numbers(void)
 	for (i = 0; i < 10; i++)
 	{
 		check = 0;
-		num = 48;
+		num = 47;
 		keep_track = 0;
-		while (keep_track != 53)
+		while (keep_track < 5)
 		{
-			_putchar(num);
-			num++;
 			if (num == 57)
 			{
 				check = 1;
-				num = 48;
+				num = 47;
 				second_digit = 49;
-				keep_track = 49;
+				keep_track = 0;
 			}
+			num++;
 			if (check == 1)
 			{
 				_putchar(second_digit);
 				keep_track++;
 			}
+			_putchar(num);
 		}
 		_putchar('\n');
 	}
