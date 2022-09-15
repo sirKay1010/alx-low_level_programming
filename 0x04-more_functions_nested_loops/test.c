@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	print_diagonal(-5);
+	print_square(-5);
 	_putchar('A');
 	_putchar('\n');
-	print_diagonal(10);
+	print_square(10);
 	return (0);
 }
