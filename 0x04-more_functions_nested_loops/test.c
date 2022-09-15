@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	print_line(0);
-	print_line(1);
-	print_line(10);
+	print_diagonal(0);
+	_putchar('A');
+	print_diagonal(5);
 	return (0);
 }
