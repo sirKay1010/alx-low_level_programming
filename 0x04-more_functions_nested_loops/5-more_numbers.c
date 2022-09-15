@@ -7,7 +7,7 @@
 
 void more_numbers(void)
 {
-	int i, num, check, second_digit, int keep_track;
+	int i, num, check, second_digit, keep_track;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -27,10 +27,11 @@ void more_numbers(void)
 			}
 			if (check == 1)
 			{
-				_putchar(second digit);
+				_putchar(second_digit);
 				keep_track++;
 			}
 		}
+		_putchar('\n');
 	}
 
 }
