@@ -22,19 +22,24 @@ void puts_half(char *str)
 	{
 		n = len / 2;
 		str = str + n;
-		/*
-		 * for (i = n; i < len - 1; i++)
-		 *{
-		 *	_putchar(*str);
-		 *	str++;
-		 *}
-		 */
-		while (*str != 0)
-		{
-			c = *str;
-			_putchar(c);
-			str++;
-		}
-		_putchar('\n');
 	}
+	else
+	{
+		n = (len - 1) / 2;
+		str = str + n;
+	}
+	/*
+	 * for (i = n; i < len - 1; i++)
+	 *{
+	 *	_putchar(*str);
+	 *	str++;
+	 *}
+	 */
+	while (*str != 0)
+	{
+		c = *str;
+		_putchar(c);
+		str++;
+	}
+	_putchar('\n');
 }
