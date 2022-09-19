@@ -17,13 +17,14 @@ void rev_string(char *s)
 		p = p + 1;
 		len++;
 	}
-
-	while ((len - 1) > (len / 2))
+	
+	len = len - 1;
+	while (len > (len  / 2))
 	{
+		p = p - 1;
 		c = *s;
 		*s = *p;
 		*p = c;
-		p = p - 1;
 		s = s + 1;
 		len--;
 	}
