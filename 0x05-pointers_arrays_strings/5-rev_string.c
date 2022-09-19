@@ -18,6 +18,14 @@ void rev_string(char *s)
 		len++;
 	}
 
-	while (len )
+	while ((len - 1) > (len / 2))
+	{
+		c = *s;
+		*s = *p;
+		*p = c;
+		p = p - 1;
+		s = s + 1;
+		len--;
+	}
 
 }
