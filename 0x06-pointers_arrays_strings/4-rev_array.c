@@ -22,7 +22,7 @@ void reverse_array(int *a, int n)
 		count++;
 	}
 	count = 0;
-	stop_count = n/2;
+	stop_count = n / 2;
 	while (count < (stop_count - 1))
 	{
 		temp = *a;
