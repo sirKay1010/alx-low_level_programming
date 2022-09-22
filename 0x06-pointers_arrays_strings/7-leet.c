@@ -10,30 +10,33 @@ char *leet(char *str)
 {
 	char *tmp;
 
-	tmp = str;
-	while (*tmp != 0)
+	for (tmp = str; *tmp != 0; tmp++)
 	{
 		if (*tmp == 'a' || *tmp == 'A')
 		{
 			*tmp = 52;
+			continue;
 		}
-		else if (*tmp == 'e' || *tmp == 'E')
+		if (*tmp == 'e' || *tmp == 'E')
 		{
 			*tmp = 51;
+			continue;
 		}
-		else if (*tmp == 'o' || *tmp == 'O')
+		if (*tmp == 'o' || *tmp == 'O')
 		{
 			*tmp = 48;
+			continue;
 		}
-		else if (*tmp == 't' || *tmp == 'T')
+		if (*tmp == 't' || *tmp == 'T')
 		{
 			*tmp = 55;
+			continue;
 		}
-		else if (*tmp == 'l' || *tmp == 'L')
+		if (*tmp == 'l' || *tmp == 'L')
 		{
 			*tmp = 49;
+			continue;
 		}
-		tmp++;
 	}
 	return (str);
 }
