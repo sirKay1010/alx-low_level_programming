@@ -23,7 +23,7 @@ void reverse_array(int *a, int n)
 	}
 	count = 0;
 	stop_count = n / 2;
-	while (count < (stop_count - 1))
+	while (count <= (stop_count))
 	{
 		temp = *a;
 		*a = *p;
