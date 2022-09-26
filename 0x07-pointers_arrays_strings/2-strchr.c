@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
  * _strchr - checks if a character exists in a string
  * @s: the string
  * @c: the character
- * Return: c if the character is present, otherwise NULL
+ * Return: c is the character is present, otherwise NULL
  */
 
 char *_strchr(char *s, char c)
@@ -18,6 +17,6 @@ char *_strchr(char *s, char c)
 			return (s);
 		s++;
 	}
+
 	return (NULL);
 }
-
