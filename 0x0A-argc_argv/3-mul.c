@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - multiplies two numbrs
+ * @argc: number of command line args
+ * @argv: array of command line args
+ * Return: 0 if success and 1 if failure
+ */
+
 int main(int argc, char *argv[])
 {
 	int add;
