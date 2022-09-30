@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		num1 = *argv[1];
 		num2 = *argv[2];
 		add = (num1 - 48) * (num2 - 48);
-		printf("%d\n%d", add, num1);
+		printf("%d\n", add);
 	}
 	return (0);
 }
