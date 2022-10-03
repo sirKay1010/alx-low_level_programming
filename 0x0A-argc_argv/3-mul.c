@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * main - multiplies two numbrs
@@ -19,9 +21,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		num1 = *argv[1];
-		num2 = *argv[2];
-		add = (num1 - 48) * (num2 - 48);
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		add = (num1) * (num2);
 		printf("%d\n", add);
 	}
 	return (0);
