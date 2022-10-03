@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * **alloc_grind - creates a two dimensional array of ints
+ * **alloc_grid - creates a two dimensional array of ints
  * @width: width of the matrix
  * @height: height of the matrix
  *
@@ -10,7 +10,7 @@
  * or NULL (Error)
  */
 
-int **alloc_grind(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **arr;
 	int i, j;
